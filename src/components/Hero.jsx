@@ -47,7 +47,10 @@ const Hero = () => {
 
             {/* button wrapper */}
             <motion.div variants={fadeInUp} className="mt-10 flex items-center justify-center flex-wrap gap-5">
-              <Button label="Download CV" classes="primary-btn"/>
+              <Button label="Download CV" classes="primary-btn"
+              href="./Pham-Nguyen-Trong-Phuc-CV.pdf"
+              download="Pham-Nguyen-Trong-Phuc-CV.pdf"
+              />
                  <Button label="Let's Collaborate" classes="secondary-btn"/>
             </motion.div>
         </div>
