@@ -30,9 +30,9 @@ const Hero = () => {
         </motion.div>
         {/* content */}
         <div className='text-center mt-8 '>
-            <motion.h1 variants={fadeInUp} className='text-3xl lg:text-5xl mb-1.5 font-bold'>Hi, I'm Tfuc03</motion.h1>
+            <motion.h1 variants={fadeInUp} className='text-3xl lg:text-5xl mb-1.5 font-bold'>Hi, I'm Tfuc</motion.h1>
             <motion.h2 variants={fadeInUp}>Fresher Frontend Developer</motion.h2>
-            <motion.p variants={fadeInUp} className='mac-w-[820px] mx-auto mt-4 mb-6 '>Hello, I’m Tfuc03, an aspiring Front-End Developer seeking a full-time role. I have a solid understanding of front-end technologies, learn quickly, and adapt well to new challenges. I work effectively in teams, communicate clearly, and manage time and tasks efficiently, eager to contribute and grow with the company.</motion.p>
+            <motion.p variants={fadeInUp} className='mac-w-[820px] mx-auto mt-4 mb-6 '>Hello, I’m Tfuc, an aspiring Front-End Developer seeking a full-time role. I have a solid understanding of front-end technologies, learn quickly, and adapt well to new challenges. I work effectively in teams, communicate clearly, and manage time and tasks efficiently, eager to contribute and grow with the company.</motion.p>
 
             <motion.div variants={fadeIn} className='flex items-center justify-center gap-5'>
                 {heroIcons.map((item) => (

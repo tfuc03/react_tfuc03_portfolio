@@ -52,7 +52,7 @@ export const heroIcons = [
 export const aboutItems = [
   {
     id: 1,
-    label: "Front-End: HTML, CSS, JavaScript (ES6+), React.js, Next.js, Vue.js, Tailwind CSS",
+    label: "Front-End: HTML, CSS, JavaScript (ES6+), React.js, Vue.js, Tailwind CSS",
   },
   {
     id: 2,

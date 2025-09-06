@@ -31,7 +31,7 @@ const Header = () => {
    <header ref={headerRef} className="header">
     <div className='container flex items-center justify-between'>
         {/* Logo */}
-    <a href="#" className='text-3xl font-semibold'>Tfuc03</a>
+    <a href="#" className='text-3xl font-semibold'>Tfuc</a>
 
     {/* Mobile menu */}
     <nav className={`lg:hidden absolute top-0 left-0 bg-secondary-clr/70 w-full backdrop-blur-2xl overflow-hidden max-h-0 mt-20 flex items-center justify-center transition-[max-height] duration-300 z-20 ${isOpen ? "max-h-[500px] overflow-auto" : ""}`}>
