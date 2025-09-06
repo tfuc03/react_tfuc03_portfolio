@@ -133,27 +133,31 @@ export const ResumeItems = [
 export const ProjectsItems = [
   {
     id: 1,
-    title: "Porfolio 1",
+    title: "Agency System Web App (Mini Version)",
     src: "/images/portfolio-1.png",
     text: "Developed a sleek and responsive web application using React.js with Tailwind CSS for modern UI design and React Hot Toast for real-time notifications. The project features a service showcase, company introduction, client testimonials, and essential resources—all crafted to deliver a professional, user-friendly experience. This work demonstrates not only strong technical skills but also a focus on building digital solutions that truly align with client needs.",
-  },
-  {
-    id: 2,
-    title: "Porfolio 2",
-    src: "/images/portfolio-2.png",
-    text: "Crafted a sleek and responsive coffee landing page using pure HTML, CSS, and JavaScript, blending aesthetic design with seamless interactivity. Features a striking hero section, smooth navigation, and engaging CTAs that elevate the brand’s digital presence. This project showcases not only solid front-end fundamentals but also a strong eye for design, storytelling, and user experience.",
+    href: "https://react-agency-template.vercel.app/"
   },
   {
     id: 3,
-    title: "Porfolio 3",
+    title: "Coffee Website – Modern Landing Page",
+    src: "/images/portfolio-2.png",
+    text: "Crafted a sleek and responsive coffee landing page using pure HTML, CSS, and JavaScript, blending aesthetic design with seamless interactivity. Features a striking hero section, smooth navigation, and engaging CTAs that elevate the brand’s digital presence. This project showcases not only solid front-end fundamentals but also a strong eye for design, storytelling, and user experience.",
+    href: "https://coffee-website-ipv-1.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "Tfuc03 | Portfolio",
     src: "/images/portfolio-1.png",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus asperiores, quia adipisci repellendus",
+    href: ""
   },
   {
     id: 4,
-    title: "Porfolio 4",
+    title: "RemoveBG",
     src: "/images/portfolio-2.png",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus asperiores, quia adipisci repellendus",
+    href: ""
   },
 ];
 
@@ -161,16 +165,16 @@ export const contactItems = [
   {
     id: 1,
     label: "Email:",
-    link: "phamphucdev1n@gmail.com",
+    link: " phamphucdev1n@gmail.com",
   },
   {
     id: 2,
     label: "Phone:",
-    link: "+84 3584 724 83",
+    link: " +84 3584 724 83",
   },
   {
     id: 3,
     label: "Location:",
-    link: "Tan Phu, Ho Chi Minh City",
+    link: " Tan Phu, Ho Chi Minh City",
   },
 ];
