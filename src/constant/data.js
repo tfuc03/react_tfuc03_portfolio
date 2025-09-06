@@ -139,26 +139,27 @@ export const ProjectsItems = [
     href: "https://react-agency-template.vercel.app/"
   },
   {
+    id: 2,
+    title: "Tfuc03 | Portfolio",
+    src: "/images/portfolio-3.png",
+    text: "A modern, responsive portfolio built with React, Tailwind CSS, and Framer Motion, designed to highlight my projects with smooth, engaging animations. Beyond showcasing my work, it serves as a professional hub where recruiters and collaborators can easily connect with me. This project reflects my focus on clean design, performance, and user experience, while demonstrating my ability to combine creativity with functionality.",
+    href: "https://react-tfuc03-portfolio.vercel.app/"
+  },
+  {
     id: 3,
     title: "Coffee Website – Modern Landing Page",
     src: "/images/portfolio-2.png",
     text: "Crafted a sleek and responsive coffee landing page using pure HTML, CSS, and JavaScript, blending aesthetic design with seamless interactivity. Features a striking hero section, smooth navigation, and engaging CTAs that elevate the brand’s digital presence. This project showcases not only solid front-end fundamentals but also a strong eye for design, storytelling, and user experience.",
     href: "https://coffee-website-ipv-1.vercel.app/"
   },
-  {
-    id: 2,
-    title: "Tfuc03 | Portfolio",
-    src: "/images/portfolio-1.png",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus asperiores, quia adipisci repellendus",
-    href: ""
-  },
-  {
-    id: 4,
-    title: "RemoveBG",
-    src: "/images/portfolio-2.png",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus asperiores, quia adipisci repellendus",
-    href: ""
-  },
+  
+  // {
+  //   id: 4,
+  //   title: "RemoveBG",
+  //   src: "/images/portfolio-2.png",
+  //   text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus asperiores, quia adipisci repellendus",
+  //   href: ""
+  // },
 ];
 
 export const contactItems = [
