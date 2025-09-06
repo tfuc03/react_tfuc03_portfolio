@@ -41,15 +41,15 @@ body {
 }
 
 
-/* @layer components {
+@layer components {
   .primary-btn {
     @apply bg-white px-8 py-3 text-black font-semibold tracking-wider border border-white hover:bg-transparent transition-colors hover:text-white active:bg-white/10;
   }
   .secondary-btn {
     @apply px-8 py-3 text-white font-semibold tracking-wider border border-white transition-colors hover:text-black hover:bg-white active:bg-white/70;
   }
-} */
-
+}
+   
 /* Header */
 .header {
   @apply fixed top-0 left-0 py-5 w-full z-30;

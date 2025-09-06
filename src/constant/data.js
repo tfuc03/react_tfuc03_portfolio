@@ -33,62 +33,64 @@ export const navItems = [
 ];
 
 export const heroIcons = [
-  {
-    id: 1,
-    icon: RiLinkedinFill,
-  },
+  // {
+  //   id: 1,
+  //   icon: RiLinkedinFill,
+  // },
   {
     id: 2,
     icon: RiFacebookBoxFill,
+    href: "https://www.facebook.com/pham.nguyen.trong.phuc.2025"
   },
   {
     id: 3,
     icon: RiGithubFill,
+    href: "https://github.com/tfuc03"
   },
 ];
 
 export const aboutItems = [
   {
     id: 1,
-    label: "React & Next.js development",
+    label: "Front-End: HTML, CSS, JavaScript (ES6+), React.js, Next.js, Vue.js, Tailwind CSS",
   },
   {
     id: 2,
-    label: "TypeScript & JavaScript (ES6+)",
+    label: "Tools & Workflow: Git/GitHub, VS Code, Vite, NPM/Yarn, Docker (basic), Postman, Figma, Cloud Services (basic).",
   },
   {
     id: 3,
-    label: "Responsive design & CSS frameworks",
+    label: "Programming & Data: Java, C#, Python (basic), OOP, SQL, MongoDB, Data Analysis, JSON.",
   },
   {
     id: 4,
-    label: "API integration & state management",
+    label: "Design & Content Skills: Adobe Premiere (basic), Adobe Photoshop (basic), Content Creation.",
   },
   {
     id: 5,
-    label: "Performance optimization",
+    label: "Soft Skills: Fast Learning, Teamwork, Communication, Problem-solving, Adaptability, Time Management, Fast Learning.",
   },
 ];
 
 export const ResumeItems = [
   {
     id: 1,
-    title: "Experience",
+    title: "Projects & Activities",
     list: [
       {
-        role: "Senior Frontend Developer",
-        label: "TechCorp",
-        time: "2022-Present",
+        role: "Front-end Developer",
+        label: "Agency System Web App (Mini Version)",
+        time: "2025",
       },
       {
-        label: "StartupXYZ",
-        role: "Frontend Developer",
-        time: "2020-2022",
+        label: "Coffee Website – Modern Landing Page",
+        role: "Front-end Developer",
+        time: "2025",
       },
       {
-        label: "WebAgency",
-        role: "Junior Developer",
-        time: "2019-2020",
+        label: "React Portfolio template",
+        role: "Front-end Developer",
+        time: "2025",
       },
     ],
   },
@@ -97,15 +99,33 @@ export const ResumeItems = [
     title: "Education",
     list: [
       {
-        label: "University of California",
-        role: "Computer Science Degree",
-        time: "2019",
+        label: "Ho Chi Minh City University of Foreign Languages – Information Technology (Huflit)",
+        role: "Software Engineering",
+        time: "2021",
+      },
+ 
+    ],
+  },
+  {
+    id: 3,
+    title: "Certification",
+    list: [
+      {
+        label: "515",
+        role: "Toeic Certification",
+        time: "2024",
       },
       {
-        label: "Meta",
-        role: "React Developer Certification",
-        time: "2022",
+        label: "Intermediate Python on Datacamp",
+        role: "Python",
+        time: "2025",
       },
+      {
+        label: "Data Manipulation with pandas",
+        role: "Python",
+        time: "2025",
+      },
+ 
     ],
   },
 ];
@@ -115,13 +135,13 @@ export const ProjectsItems = [
     id: 1,
     title: "Porfolio 1",
     src: "/images/portfolio-1.png",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus asperiores, quia adipisci repellendus",
+    text: "Developed a sleek and responsive web application using React.js with Tailwind CSS for modern UI design and React Hot Toast for real-time notifications. The project features a service showcase, company introduction, client testimonials, and essential resources—all crafted to deliver a professional, user-friendly experience. This work demonstrates not only strong technical skills but also a focus on building digital solutions that truly align with client needs.",
   },
   {
     id: 2,
     title: "Porfolio 2",
     src: "/images/portfolio-2.png",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus asperiores, quia adipisci repellendus",
+    text: "Crafted a sleek and responsive coffee landing page using pure HTML, CSS, and JavaScript, blending aesthetic design with seamless interactivity. Features a striking hero section, smooth navigation, and engaging CTAs that elevate the brand’s digital presence. This project showcases not only solid front-end fundamentals but also a strong eye for design, storytelling, and user experience.",
   },
   {
     id: 3,
@@ -141,16 +161,16 @@ export const contactItems = [
   {
     id: 1,
     label: "Email:",
-    link: "alexchen.dev@gmail.com",
+    link: "phamphucdev1n@gmail.com",
   },
   {
     id: 2,
     label: "Phone:",
-    link: "+1 (415) 892-7643",
+    link: "+84 3584 724 83",
   },
   {
     id: 3,
     label: "Location:",
-    link: "San Francisco, CA",
+    link: "Tan Phu, Ho Chi Minh City",
   },
 ];
