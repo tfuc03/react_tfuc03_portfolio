@@ -1,12 +1,35 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Portfolio Template
 
-Currently, two official plugins are available:
+A modern, responsive portfolio built with React, Tailwind CSS, and Framer Motion, designed to highlight my projects with smooth, engaging animations. Beyond showcasing my work, it serves as a professional hub where recruiters and collaborators can easily connect with me. This project reflects my focus on clean design, performance, and user experience, while demonstrating my ability to combine creativity with functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://react-tfuc03-portfolio.vercel.app/
+
+
+## Screenshots
+
+![App Screenshot](https://i.postimg.cc/4dCrb5GQ/Screen-Shot-2025-09-07-at-01-28-22.png)
+
+![App Screenshot](https://i.postimg.cc/rwrjCLw7/Screen-Shot-2025-09-07-at-01-28-58.png)
+
+![App Screenshot](https://i.postimg.cc/ZnQPpftT/Screen-Shot-2025-09-07-at-01-29-21.png)
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+    
+## Tech Stack
+
+**Client:** React + Vite, TailwindCSS, Framer Motion.
+
+**Server:** Vercel.
+
