@@ -11,11 +11,7 @@ https://react-tfuc03-portfolio.vercel.app/
 
 ## Screenshots
 
-![App Screenshot](https://i.postimg.cc/4dCrb5GQ/Screen-Shot-2025-09-07-at-01-28-22.png)
-
-![App Screenshot](https://i.postimg.cc/rwrjCLw7/Screen-Shot-2025-09-07-at-01-28-58.png)
-
-![App Screenshot](https://i.postimg.cc/ZnQPpftT/Screen-Shot-2025-09-07-at-01-29-21.png)
+![App Screenshot](https://i.postimg.cc/4dCrb5GQ/Screen-Shot-2025-09-07-at-01-28-22.png) ![App Screenshot](https://i.postimg.cc/rwrjCLw7/Screen-Shot-2025-09-07-at-01-28-58.png) ![App Screenshot](https://i.postimg.cc/ZnQPpftT/Screen-Shot-2025-09-07-at-01-29-21.png)
 
 
 ## Installation
