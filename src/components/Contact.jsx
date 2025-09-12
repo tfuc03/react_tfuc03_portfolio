@@ -2,12 +2,44 @@ import React from 'react'
 import { contactItems } from '../constant/data';
 import { li } from 'motion/react-client';
 import { RiFacebookBoxFill, RiGithubFill } from '@remixicon/react';
+import toast, { Toaster } from "react-hot-toast";
+
 
 // Motion
 import { motion } from "motion/react";
 import { staggerContainer, fadeIn, fadeInUp } from '../motion/animation';
 
 const Contact = () => {
+
+    // Web3 form API
+    const onSubmit = async (event) => {
+        event.preventDefault();
+
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "c911c987-0bd8-4327-8371-7753c0b7e3d1");
+
+    try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+        toast.success('Thanks for your submission!')
+      event.target.reset();
+    } else {
+     toast.error('data.message')
+    }
+    } catch (error) {
+        toast.error('data.message')
+    }
+
+    
+    };
+
   return (
     <section className='py-20' id='contact'>
         <motion.div 
@@ -47,30 +79,31 @@ const Contact = () => {
                 </motion.div>
             </div>
             {/* Form */}
-            <motion.form variants={fadeIn} action="" className='grid gap-5'>
+            <motion.form variants={fadeIn} action="" className='grid gap-5' onSubmit={onSubmit}>
                 {/* Input field */}
                 <div className=' grid gap-2'>
                     <label htmlFor="name">Name *</label>
-                    <input type="text" placeholder='Enter Your Name' className='input' required />
+                    <input type="text" name="name" placeholder='Enter Your Name' className='input' required />
                 </div>
 
                 {/* Input field */}
                 <div className='grid gap-2'>
                     <label htmlFor="email">Email *</label>
-                    <input type="email" placeholder='Enter Your Email' className='input' required />
+                    <input type="email" name="email" placeholder='Enter Your Email' className='input' required />
                 </div>
 
                 {/* text Area */}
                 <div className='grid gap-2'>
                     <label htmlFor="message">Message *</label>
-                    <textarea id='message' placeholder='Enter Your Message' className='h-40 border border-neutral-800 indent-4 py-2 resize-none' 
+                    <textarea name="message" id='message' placeholder='Enter Your Message' className='h-40 border border-neutral-800 indent-4 py-2 resize-none' 
                     required />
                 </div>
 
-                <button className="primary-btn max-w-max">Send Message</button>
+                <button type="submit" className="primary-btn max-w-max">Send Message</button>
             </motion.form>
         </motion.div>
     </section>
+    
   );
 };
 

@@ -56,11 +56,11 @@ export const aboutItems = [
   },
   {
     id: 2,
-    label: "Tools & Workflow: Git/GitHub, VS Code, Vite, NPM/Yarn, Docker (basic), Postman, Figma, Cloud Services (basic).",
+    label: "Tools & Workflow: Git/GitHub, VS Code, Vite, Docker (basic), Postman, Figma.",
   },
   {
     id: 3,
-    label: "Programming & Data: Java, C#, Python (basic), OOP, SQL, MongoDB, Data Analysis, JSON.",
+    label: "Programming & Data: Java, C#, Python, OOP, SQL, MongoDB.",
   },
   {
     id: 4,
