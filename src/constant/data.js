@@ -171,7 +171,7 @@ export const contactItems = [
   {
     id: 2,
     label: "Phone:",
-    link: " +84 3584 724 83",
+    link: " +84 3847 643 82",
   },
   {
     id: 3,
