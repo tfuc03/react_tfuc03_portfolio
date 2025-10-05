@@ -52,7 +52,7 @@ export const heroIcons = [
 export const aboutItems = [
   {
     id: 1,
-    label: "Front-End: HTML, CSS, JavaScript (ES6+), React.js, Vue.js, Tailwind CSS",
+    label: "Front-End: HTML, CSS, JavaScript (ES6+), React.js, Next.js, Tailwind CSS",
   },
   {
     id: 2,
@@ -64,11 +64,11 @@ export const aboutItems = [
   },
   {
     id: 4,
-    label: "Design & Content Skills: Adobe Premiere (basic), Adobe Photoshop (basic), Content Creation.",
+    label: "Design & Content Skills:Adobe Photoshop (basic), Content Creation.",
   },
   {
     id: 5,
-    label: "Soft Skills: Fast Learning, Teamwork, Communication, Problem-solving, Adaptability, Time Management, Fast Learning.",
+    label: "Soft Skills: Fast Learning, Teamwork, Communication, Problem-solving, Adaptability, Time Management.",
   },
 ];
 
