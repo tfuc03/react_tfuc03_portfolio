@@ -110,11 +110,11 @@ export const ResumeItems = [
     id: 3,
     title: "Certification",
     list: [
-      {
-        label: "515",
-        role: "Toeic Certification",
-        time: "2024",
-      },
+     // {
+     //   label: "515",
+     //   role: "Toeic Certification",
+     //   time: "2024",
+     // },
       {
         label: "Intermediate Python on Datacamp",
         role: "Python",
