@@ -1,7 +1,10 @@
 
 # React Portfolio Template
 
-A modern, responsive portfolio built with React, Tailwind CSS, and Framer Motion, designed to highlight my projects with smooth, engaging animations. Beyond showcasing my work, it serves as a professional hub where recruiters and collaborators can easily connect with me. This project reflects my focus on clean design, performance, and user experience, while demonstrating my ability to combine creativity with functionality.
+This is my portfolio where I show my skills, projects. Using React, Tailwindcss and
+animation with Framer Motion without AI. This is a modern portfolio with respensive. I used
+Toaster to make popup notification and Web3Forms to get and send recruitment
+information to my personal email if the employer finds me suitable for them.
 
 
 ## Demo
@@ -27,5 +30,5 @@ Install my-project with npm
 
 **Client:** React + Vite, TailwindCSS, Framer Motion.
 
-**Server:** Vercel.
+**Deployment:** Vercel.
 
