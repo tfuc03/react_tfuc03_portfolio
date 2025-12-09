@@ -16,7 +16,7 @@ const About = () => {
         viewport={{once:true}}
         className='container'>
             <motion.h2 variants={fadeInUp}>About me</motion.h2>
-            <motion.p variants={fadeInUp} className='mt-3 mb-9'>Motivated Front-End Developer with hands-on experience in React.js, Next.js, JavaScript (ES6+), and responsive web design. Possess a solid foundation in OOP, Java, and C#, along with knowledge of data analysis that enhances problem-solving skills. Proficient in using Git/GitHub, modern build tools, and basic Docker workflows. A fast learner, effective team player, and always eager to contribute to building user-friendly and efficient web applications in a professional environment.</motion.p>
+            <motion.p variants={fadeInUp} className='mt-3 mb-9'>Hi, I'm Phuc. I'm a software engineering student at Huflit. I'm a Frontend Developer. The work revolves around Software Development. In a normal way, I want to turn my ideas into reality. I wanted to challenge myself to see how far I could go in this really harsh environment. I am aiming to become a Fullstack Developer. I am not a good and experienced person. I know that so I will try to keep up with those who are better than me.</motion.p>
         
         {/* Skills */}
         <div>

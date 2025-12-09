@@ -52,19 +52,19 @@ export const heroIcons = [
 export const aboutItems = [
   {
     id: 1,
-    label: "Front-End: HTML, CSS, JavaScript (ES6+), React.js, Next.js, Tailwind CSS",
+    label: "Front-End: HTML, CSS, JavaScript (ES6+), React.js, Tailwind CSS",
   },
   {
     id: 2,
-    label: "Tools & Workflow: Git/GitHub, VS Code, Vite, Docker (basic), Postman, Figma.",
+    label: "Tools & Workflow: Git/GitHub, VS Code, Vite, Docker, Figma.",
   },
   {
     id: 3,
-    label: "Programming & Data: Java, C#, Python, OOP, SQL, MongoDB.",
+    label: "Programming & Data: Java, C#, Python, NoSQL, MongoDB.",
   },
   {
     id: 4,
-    label: "Design & Content Skills:Adobe Photoshop (basic), Content Creation.",
+    label: "Design & Content Skills:Adobe Photoshop, Capcut.",
   },
   {
     id: 5,
@@ -111,9 +111,19 @@ export const ResumeItems = [
     title: "Certification",
     list: [
       {
-        label: "515",
-        role: "Toeic Certification",
-        time: "2024",
+        label: "Hands On React JS From Beginner to Expert",
+        role: "ReactJS",
+        time: "2025",
+      },
+      {
+        label: "MongoDB - The Complete MongoDB Developer's Course",
+        role: "MongoDB",
+        time: "2025",
+      },
+      {
+        label: "Mastering Docker Essentials - Hands-on DevOps",
+        role: "Docker",
+        time: "2025",
       },
       {
         label: "Intermediate Python on Datacamp",
@@ -121,10 +131,11 @@ export const ResumeItems = [
         time: "2025",
       },
       {
-        label: "Data Manipulation with pandas",
-        role: "Python",
+        label: "Git and GitHub MasterClass: Git Workflow, Commands",
+        role: "Github",
         time: "2025",
       },
+      
  
     ],
   },
@@ -135,21 +146,21 @@ export const ProjectsItems = [
     id: 1,
     title: "Agency System Web App (Mini Version)",
     src: "/images/portfolio-1.png",
-    text: "Developed a sleek and responsive web application using React.js with Tailwind CSS for modern UI design and React Hot Toast for real-time notifications. The project features a service showcase, company introduction, client testimonials, and essential resources—all crafted to deliver a professional, user-friendly experience. This work demonstrates not only strong technical skills but also a focus on building digital solutions that truly align with client needs.",
+    text: "A project about Agency where client can find and contact with suitable Agency. It's look like Upwork, Fiverr... I created it with knowledge of ReactJS and Taiwindcss without AI. The interface is friendly and modern. I use Framer Motion and Toaster for effects and notifications. The project includes a service introduction, company profile, client testimonials, and essential resources—all designed to deliver a professional and user-friendly experience.",
     href: "https://react-agency-template.vercel.app/"
   },
   {
     id: 2,
     title: "Tfuc03 | Portfolio",
     src: "/images/portfolio-3.png",
-    text: "A modern, responsive portfolio built with React, Tailwind CSS, and Framer Motion, designed to highlight my projects with smooth, engaging animations. Beyond showcasing my work, it serves as a professional hub where recruiters and collaborators can easily connect with me. This project reflects my focus on clean design, performance, and user experience, while demonstrating my ability to combine creativity with functionality.",
+    text: "This is my portfolio where I show my skills, projects. Using React, Tailwindcss and animation with Framer Motion without AI. This is a modern portfolio with respensive. I used Toaster to make popup notification and Web3Forms to get and send recruitment information to my personal email if the employer finds me suitable for them.",
     href: "https://react-tfuc03-portfolio.vercel.app/"
   },
   {
     id: 3,
     title: "Coffee Website – Modern Landing Page",
     src: "/images/portfolio-2.png",
-    text: "Crafted a sleek and responsive coffee landing page using pure HTML, CSS, and JavaScript, blending aesthetic design with seamless interactivity. Features a striking hero section, smooth navigation, and engaging CTAs that elevate the brand’s digital presence. This project showcases not only solid front-end fundamentals but also a strong eye for design, storytelling, and user experience.",
+    text: "Landing page with the idea of ​​a coffee shop. I used HTML, CSS and JS to create this website. Customers can see the products, the story of the shop as well as reviews and comments from customers who have experienced the service here. The interface is user-friendly, suitable for all device sizes (from Mobile to Desktop).",
     href: "https://coffee-website-ipv-1.vercel.app/"
   },
   
