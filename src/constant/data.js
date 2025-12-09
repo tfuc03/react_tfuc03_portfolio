@@ -110,6 +110,7 @@ export const ResumeItems = [
     id: 3,
     title: "Certification",
     list: [
+
       {
         label: "Hands On React JS From Beginner to Expert",
         role: "ReactJS",
@@ -125,6 +126,13 @@ export const ResumeItems = [
         role: "Docker",
         time: "2025",
       },
+
+     // {
+     //   label: "515",
+     //   role: "Toeic Certification",
+     //   time: "2024",
+     // },
+
       {
         label: "Intermediate Python on Datacamp",
         role: "Python",
